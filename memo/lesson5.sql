@@ -119,4 +119,13 @@ TRUNC(数値を表す列, 有効とする桁数)
 
 POWER(数値を表す列, 何乗するかを指定する数値)
 → 数値を指定した回数だけ乗じた結果
+
+5.6 日付にまつわる関数
+SQLで現在の日付を得るには CURRENT_DATE関数
+現在の時刻を得るには CURRENT_TIME関数を用います
+
+CURRENT_DATE → 現在の日付（YYYY-MM-DD）
+CURRENT_TIME → 現在の時刻（HH:MM:SS）
+
+
 */
